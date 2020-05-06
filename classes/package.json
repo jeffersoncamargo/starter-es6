@@ -1,0 +1,29 @@
+{
+  "name": "rocketseat-starter-es6-course",
+  "version": "1.0.0",
+  "description": "An ES6 course for getting mysel ready to enter the React World",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersoncamargo/starter-es6.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "course"
+  ],
+  "author": "Jefferson Camargo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersoncamargo/starter-es6/issues"
+  },
+  "homepage": "https://github.com/jeffersoncamargo/starter-es6#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
